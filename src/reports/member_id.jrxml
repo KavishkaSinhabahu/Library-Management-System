@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="student_idRPL" pageWidth="420" pageHeight="298" orientation="Landscape" columnWidth="420" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="e958c40a-fc03-472f-b6e9-7c978b66d203">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="Parameter1" class="java.lang.String"/>
+	<parameter name="Parameter2" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="280" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<rectangle>
+				<reportElement x="10" y="10" width="399" height="1" backcolor="#0F0606" uuid="be114e83-8a74-4842-b889-114465f24311"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="10" y="11" width="1" height="268" backcolor="#0F0202" uuid="f0a61e93-c169-4102-9fca-e7a9fd6ff132"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="410" y="11" width="1" height="268" backcolor="#0D0202" uuid="4b9c42be-ee34-4d1b-983c-df9500358922"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="11" y="19" width="398" height="30" uuid="4250f611-b684-47ba-aa05-4d90158a7e00"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Public Library]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="40" width="399" height="30" uuid="59856ffd-ceb3-4d13-8133-bfe5570af5ca"/>
+				<textElement textAlignment="Center">
+					<font fontName="Eras Bold ITC" size="19" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Membership Card]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="40" y="70" width="340" height="1" backcolor="#0F0606" uuid="2968dbb1-1552-42ff-a395-b6c46deb78bb"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="20" y="100" width="170" height="30" uuid="85c935cb-8145-47e2-ba09-535c61c1c159"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Membership ID  :]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="200" y="90" width="200" height="50" uuid="daad2d85-80b1-49cd-ac29-7f267d8f69b1"/>
+				<graphicElement>
+					<pen lineColor="#0A1170"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="43" y="160" width="137" height="20" uuid="4598aec0-c54c-4d54-90c0-521f350ab3dc"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Member Name            :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="43" y="190" width="137" height="22" uuid="b33a6389-9afa-4e03-8903-1f06a0515c00"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Member Signature     :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="43" y="220" width="137" height="22" uuid="7fd68379-a882-49c5-a39a-96a80918d1e1"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Librarian Signature   :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="170" width="180" height="20" uuid="5f4d2a1b-2cc0-487a-935a-27b00946d44d"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[.............................................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="230" width="180" height="20" uuid="324d3caf-5cae-4a91-8884-53c06d0c38a2"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[.............................................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="200" width="180" height="20" uuid="186d836d-9c73-451e-85e6-e2ff7b92568b"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[.............................................................]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="340" y="260" width="71" height="20" uuid="00b21789-6b8b-457f-b48f-e12b2d8129fc"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField pattern="HH:mm">
+				<reportElement x="20" y="260" width="90" height="20" uuid="35fd1e4a-e3f5-408c-bda3-db7d27ce5eb3"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="90" width="200" height="48" uuid="11409e55-309b-48c7-a86b-0d447fdef3c2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Parameter1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="162" width="187" height="18" uuid="8985cf4f-ca83-471e-aa73-ea28c3dbe356"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Parameter2}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="250" width="399" height="30" forecolor="#05113B" uuid="c9a25ebf-a579-4a79-b0b8-63f94adee524"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Alienation of this card is prohibited]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="11" splitType="Stretch">
+			<rectangle>
+				<reportElement x="11" y="-1" width="399" height="1" backcolor="#0F0606" uuid="8d39434f-c7f2-4fae-a15c-7c6b2caf7473"/>
+			</rectangle>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="7" splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>
