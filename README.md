@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a desktop-based **Library Management System (LMS)** developed as a final year university project. The application is designed to support the day-to-day operations of a library by digitizing core administrative tasks such as member registration, book catalog management, book issuing and returning, overdue tracking, and report generation.
+This project is a desktop-based **Library Management System (LMS)** developed as a first year university project. The application is designed to support the day-to-day operations of a library by digitizing core administrative tasks such as member registration, book catalog management, book issuing and returning, overdue tracking, and report generation.
 
 The system is implemented as a **Java Swing** application using **NetBeans**, with **MySQL** as the backend database. It provides a user-friendly graphical interface for librarians and other authorized users to manage library records efficiently and accurately.
 
@@ -163,4 +163,4 @@ This project demonstrates practical knowledge in:
 
 ## Conclusion
 
-The **Library Management System** is a practical academic software project developed to solve common library administration problems through automation. It provides a structured, user-friendly, and scalable foundation for managing books, members, and transactions in a library environment. As a final year university project, it reflects both technical implementation skills and an understanding of real-world information system requirements.
+The **Library Management System** is a practical academic software project developed to solve common library administration problems through automation. It provides a structured, user-friendly, and scalable foundation for managing books, members, and transactions in a library environment. As a first year university project, it reflects both technical implementation skills and an understanding of real-world information system requirements.
